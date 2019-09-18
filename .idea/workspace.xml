@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7deb4f1a-6697-491a-8b29-f8d2bbe36f15" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main_control/Analysis-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/main_control/Analysis-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main_control/EXE-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/main_control/EXE-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main_control/PKG-00.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/build/main_control/PKG-00.pkg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main_control/PKG-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/main_control/PKG-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main_control/PYZ-00.pyz" beforeDir="false" afterPath="$PROJECT_DIR$/build/main_control/PYZ-00.pyz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main_control/PYZ-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/main_control/PYZ-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main_control/base_library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/main_control/base_library.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main_control/warn-main_control.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/main_control/warn-main_control.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main_control/xref-main_control.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/main_control/xref-main_control.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dist/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main_control.exe" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main_control.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/setup.bat" beforeDir="false" afterPath="$PROJECT_DIR$/dist/setup.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/start_hidden.vbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/start_show.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_control.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_control.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568781934623</updated>
-      <workItem from="1568781935733" duration="17953000" />
+      <workItem from="1568781935733" duration="18727000" />
     </task>
     <servers />
   </component>
