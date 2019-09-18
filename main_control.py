@@ -1,6 +1,6 @@
 import sys
 import os
-
+import time
 
 help_info = """
 -folder 查找目标文件夹，爬取其目录下的所有doc和docx文件，参数后面写上若干个文件夹名(支持正则表达式)
@@ -14,10 +14,22 @@ P.S. 如果参数中包含了中文，则需要把bat文件的编码改为ANSI
 """
 
 
+def get_time():
+    local_time = time.localtime()
+    t = "%s年 " % local_time.tm_year
+    t += "%s月 " % local_time.tm_mon
+    t += "%s日 " % local_time.tm_mday
+    t += "%s时 " % local_time.tm_hour
+    t += "%s分 " % local_time.tm_min
+    t += "%s秒 " % local_time.tm_sec
+    return t
+
+
 def output_log(args):
     with open("log.txt", "a") as f:
         for arg in args:
             f.write(arg + "\n")
+        f.write("\n")
 
 
 def make_dir():
@@ -30,6 +42,7 @@ if __name__ == '__main__':
     print(sys.argv)
     make_dir()
     args = [s for s in sys.argv]
+    args.insert(0, get_time())
     output_log(args)
 
     if len(sys.argv) == 1:
@@ -50,3 +63,4 @@ if __name__ == '__main__':
             input()
         else:
             print("参数有误")
+            output_log(["参数有误"])

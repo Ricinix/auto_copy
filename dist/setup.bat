@@ -1,1 +1,0 @@
-start /b main_control.exe
